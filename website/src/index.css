@@ -1,0 +1,150 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Mulish&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Navigation Bar Code */
+
+.navbar{
+  background-color: #fff !important;
+}
+
+ .navbar-brand {
+  font-size: 2.5rem !important;
+  color: #565387 !important;
+  font-weight:bold !important;
+} 
+
+.navbar a{
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.active-Link:hover{
+  color:rgb(21, 148, 187) !important;
+  border-bottom: 1px solid black;
+}
+
+
+
+/*Home bar css */
+
+#header h1{
+  font-weight: 700;
+  color:black;
+  font-size:40px;
+}
+
+.brand-name{
+  color:rgb(0, 204, 255);
+}
+
+#header h2{
+  color:#484848;
+  font-size: 20px;
+}
+
+.main-div-home ,.header-img{
+  margin-top:5%;
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing:1px;
+  display: inline-block;
+  padding:10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color:#3498db;
+  border: 2px solid #3498db;
+  text-decoration: none; 
+}
+
+#header .btn-get-started:hover{
+  background: #3498db;
+  color:#fff;
+}
+
+/* Image */
+
+.animated{
+  margin-left:30%;
+  margin-top: 8%;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+
+/* Responsive Code */
+
+@media (max-width: 991px){
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+
+  #header .header-img{
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px){
+  #header {
+    margin-top: 20px;  
+  }
+  #header h1{
+    font-size: 28px;
+  }
+
+ #header h2{
+   font-size: 18px;
+   margin-bottom: 30px;
+ }
+  #header .header-img img {
+    width: 70%;
+  }
+}
+
+/* Card Image Code */
+
+.card-image{
+  height: 250px;
+  }
+
+
+/* Footer Code */
+
+
+.Footer{
+  margin-top:220px;
+  height: 150px;
+  background-color: #707070a6;
+  line-height: 80px;
+  font-size: 1.1rem;
+}
